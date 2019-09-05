@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<head>
+    <title>Prachi Kapadia</title>
+    <meta name="author" content="Prachi Kapadia">
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+<body style="font-family: 'Roboto', sans-serif;">
+
+    <header class="nav-down">
+    <nav>
+        <div class="nav-wrapper bg__secondary">
+        <a href="index.html" class="brand-logo right">Prachi K.</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </nav> 
+</header>
+
+    <section id="home">
+        <div id="particles-js"></div>
+        <div class="home-content-table">
+            <div class="home-content">
+                <div class="row1">
+                        <img data-aos="fade-up" src="imgs/prachi-min.png" class="home-img" alt="Code">
+                        <h1 data-aos="fade-down" class="intro">Hi, I am </h3>
+                        <h2 data-aos="fade-down" class="intro">Prachi Kapadia</h1>
+                        <ul data-aos="fade-down" class="home-social">
+                            <li><a href="mailto:prachi.kapadia@hotmail.com"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/pnkapadia/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/pnkapadia"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.facebook.com/PrachiKapa"><i class="fa fa-facebook-square"></i></a></li>
+                        </ul> 
+                        <div class="arrow bounce"><a href="#about"><i class="fa fa-chevron-down"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="row about-wrap">
+            <div class="col-full">
+                <h3 data-aos="fade-up">About Me</h3>
+                <hr><br><br>
+                <div class="row2">
+                    <div class="column" data-aos="fade-left">
+                        <img src="imgs/codePic.jpg" alt="Code">
+                    </div>
+                    <div class="column" data-aos="fade-right">
+                        <h4>Hi! <br> I'm a Computer Science graduate from Ryerson University.</h4>
+                        <p>I enjoy challenging myself and building my skills by working on new and creative side projects.
+                            I am an aspiring full stack developer looking to make my mark on future companies.
+                            I want to help create applications that would benefit others. 
+                            Check out my <b>resume</b> below.
+                            <br>
+                        </p>
+                        <p class="center-align">
+                            <button class="waves-effect waves-light btn" onclick="triggerResume();">Resume</button>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="other" data-aos="zoom-in">
+                    <h4>Development Experience</h4>
+                    <p>I am proficient with Java, Javascript, and HTML/CSS. Furthermore, I'm familiar with front-end frameworks such as React and Bootstrap. 
+                        I have experience working with databases (SQL, MySQL, and Oracle) and have knowledge of useful tools such as, Github, Heroku, and Slack. 
+                    </p>
+
+                    <h4>Interests</h4>
+                    <p>My hobbies include reading, listening to podcasts, and coding. In my free time, you'll probably find me browsing through tech related articles and listening to music.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="row about-wrap">
+            <div class="col-full">
+                <h3 data-aos="fade-down">My Portfolio</h3>
+                       
+                <div class="cta filter" data-aos="zoom-in-up">
+                    <button class="btn all active filter-button" data-filter="all">All Projects</button>
+                    <button class="btn filter-button" data-filter="school">School</button>
+                    <button class="btn filter-button" data-filter="personal">Personal</button>
+                    <button class="btn filter-button" data-filter="web">Web Design</button>
+                </div>
+                <br><br>
+
+                <div class="boxes">
+                <div class="container-fluid">
+                
+                <div class="row">
+                
+                <div class="col-md-4 filter personal" data-color="personal">
+                    <div class="overlay">
+                        <img src="imgs/calc.jpg" class="img-responsive" alt="Calculator">
+                        <div class="imageEffect">
+                        <p style="font-size: 20px; text-align:center; padding-top: 10px;">Grade Calculator</p>
+                        <p>A GPA Calculator created using Javascript and HTML/CSS. Users input grades and weights of 5 assignments to calculate final grade and letter grades based on Ryerson's 4.33 grade scale.
+                        </p>
+                        <a href="https://github.com/pnkapadia/gradeCalc">Github</i></a>
+                        <a href="https://pnkapadia.github.io/gradeCalc/">Demo</i></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 filter personal" data-color="personal">
+                    <div class="overlay">
+                        <img src="imgs/sketch.jpg" class="img-responsive" alt="Etch">
+                        <div class="imageEffect">
+                        <p style="font-size: 20px; text-align:center; padding-top: 10px;">Etch a Sketch</p>
+                        <p>Created an Etch-a-Sketch like canvas allowing users to draw. A project based on<a href="https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project">The Odin Project</a></p>
+                        <a href="https://github.com/pnkapadia/EtchSketch">Github</i></a>
+                        <a href="https://pnkapadia.github.io/EtchSketch/">Demo</i></a>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                <div class="col-md-4 filter personal" data-color="personal">
+                        <div class="overlay">
+                            <img src="imgs/todo.jpg" class="img-responsive" alt="Todo">
+                            <div class="imageEffect">
+                            <p style="font-size: 20px; text-align:center; padding-top: 10px;">To Do List</p>
+                            <p>A todo list web app created using React.js. Allows users to add, delete and cross off tasks. Users can also toggle between Home and About pages.</p>
+                            <a href="https://github.com/pnkapadia/todo-list">Github</i></a>
+                            <a href="https://pnkapadia.github.io/todo-list/">Demo</i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                <div class="row">
+                    
+                    <div class="col-md-4 filter personal" data-color="personal">
+                        <div class="overlay">
+                            <img src="imgs/rBox.jpg" class="img-responsive" alt="Recipe">
+                            <div class="imageEffect">
+                            <p style="font-size: 20px; text-align:center; padding-top: 10px;">Recipe Box</p>
+                            <p>Created a recipe box web app where users can add new recipes, delete recipes, and edit recipes.</p>
+                            <a href="https://github.com/pnkapadia/Recipes-Search">Github</i></a>
+                            <a href="https://pnkapadia.github.io/Recipes-Search/">Demo</i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-md-4 filter school" data-color="school">
+                        <div class="overlay">
+                            <img src="imgs/drone.jpg" class="img-responsive" alt="Drone">
+                            <div class="imageEffect">
+                            <p style="font-size: 20px; text-align:center; padding-top: 10px;">Drone</p>
+                            <p>Created a drone using OpenGL and C++. Users can move and turn the drone using arrow keys.</p>
+                            <a href="https://github.com/pnkapadia/CPS511Drone">Github</i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                    <div class="col-md-4 filter school" data-color="school">
+                        <div class="overlay">
+                            <img src="imgs/tickets.jpg" class="img-responsive" alt="Tickets">
+                            <div class="imageEffect">
+                            <p style="font-size: 20px; text-align:center; padding-top: 10px;">Tickets and Events</p>
+                            <p>A pure Java project created with group of 3. Allows users to buy and sell tickets. Tested using JUnit.</p>
+                            <a href="https://github.com/pnkapadia/TicketSimulator">Github</i></a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="row">
+                
+                <div class="col-md-4 filter school" data-color="school">
+                    <div class="overlay">
+                        <img src="imgs/road.jpg" class="img-responsive" alt="Cypress">
+                        <div class="imageEffect">
+                        <p style="font-size: 20px; text-align:center; padding-top: 10px;">Cypress System</p>
+                        <p>Allow citizens to report problems about their city and what they see on the streets.</p>
+                        <a href="https://github.com/pnkapadia/CypressSystemProject">Github</i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-4 filter school" data-color="school">
+                    <div class="overlay">
+                        <img src="imgs/network.jpg" class="img-responsive" alt="Networks">
+                        <div class="imageEffect">
+                        <p style="font-size: 20px; text-align:center; padding-top: 10px;">Content Delivery Network</p>
+                        <p>Created a dummy content delivery network with a team of 3. Used Java to code both servers.</p>
+                        <a href="https://github.com/pnkapadia/CPS706Project">Github</i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-4 filter school" data-color="school">
+                    <div class="overlay">
+                        <img src="imgs/art.jpg" class="img-responsive" alt="Art">
+                        <div class="imageEffect">
+                        <p style="font-size: 20px; text-align:center; padding-top: 10px;">Art Site</p>
+                        <p>Created a responsive site to buy art with a team of 3. Coded using HTML/CSS, Javascript, and PHP.</p>
+                        <a href="https://github.com/pnkapadia/ArtSite">Github</i></a>
+                        <a href="https://pnkapadia.github.io/ArtSite/">Demo</i></a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="row">
+
+            <div class="col-md-4 filter web" data-color="web">
+                <div class="overlay">
+                    <img src="imgs/wics.jpg" class="img-responsive" alt="wics">
+                    <div class="imageEffect">
+                    <p style="font-size: 20px; text-align:center; padding-top: 10px;">WiCS</p>
+                    <p>Designed the Women in Computer Science website from scratch, using HTML/CSS, Javascript, and Materialize CSS.</p>
+                    <a href="http://wics.scs.ryerson.ca/">Website</i></a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    </section>
+
+<section id="contact">
+        <div class="contact-content-table">
+                <div class="contact-content">
+                    <div class="row1">
+            <h3 data-aos="fade-down">Contact Me</h3>
+           <hr>
+    
+    <div class="contact-form">
+    <div data-aos="fade-down">  
+    <h4>Like what you see?</h4> <br>  
+    <p>Feel free to contact me through any of the methods below.</p>
+    </div> 
+    
+    <ul class="contact-social" data-aos="fade-down">
+        <li><a href="https://www.linkedin.com/in/pnkapadia/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/pnkapadia"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.facebook.com/PrachiKapa"><i class="fa fa-facebook-square"></i></a></li>
+    </ul> 
+
+    <br><br><br>
+
+    <div data-aos="zoom-in-down">
+    <p>My email is: <a href="mailto:prachi.kapadia@hotmail.com">prachi.kapadia@hotmail.com</a></p>
+    <p>Don't forget to check my resume!</p>
+    <p class="center-align">
+        <button class="waves-effect waves-light btn" onclick="triggerResume();">Resume</button>
+    </p>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+ 
+</section>
+
+<footer>
+    <p>Copyright @ Prachi Kapadia, All Rights Reserved</p>
+</footer>
+
+<div class="loader-wrapper">
+<div class="gooey">
+    <span class="dot"></span>
+    <div class="dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>  
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="js/particles.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
